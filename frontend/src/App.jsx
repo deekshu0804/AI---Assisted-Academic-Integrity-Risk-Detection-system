@@ -7,7 +7,7 @@ import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 
 const StudentDetail = lazy(() => import('./pages/StudentDetail'));
-import { GlassSkeleton } from './pages/StudentDetail';
+import { GlassSkeleton } from './components/GlassSkeleton';
 const AnalyzePage = lazy(() => import('./pages/AnalyzePage'));
 
 const pageVariants = {
